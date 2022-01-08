@@ -1,10 +1,11 @@
-package com.gabriel.easy_eat_recipe
+package com.gabriel.easy_eat_recipe.fragment.favorite_recipes_fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.gabriel.easy_eat_recipe.R
 
 class FavoriteRecipesFragment : Fragment() {
 

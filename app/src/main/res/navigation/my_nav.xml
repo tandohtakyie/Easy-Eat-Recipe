@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/recipesFragment"
-        android:name="com.gabriel.easy_eat_recipe.RecipesFragment"
+        android:name="com.gabriel.easy_eat_recipe.fragment.recipe_fragment.RecipesFragment"
         android:label="@string/recipes_fragment_appbar_text"
         tools:layout="@layout/fragment_recipes" />
     <fragment
         android:id="@+id/favoriteRecipesFragment"
-        android:name="com.gabriel.easy_eat_recipe.FavoriteRecipesFragment"
+        android:name="com.gabriel.easy_eat_recipe.fragment.favorite_recipes_fragment.FavoriteRecipesFragment"
         android:label="@string/favorite_recipes_fragment_appbar_text"
         tools:layout="@layout/fragment_favorite_recipes" />
     <fragment
         android:id="@+id/foodJokeFragment"
-        android:name="com.gabriel.easy_eat_recipe.FoodJokeFragment"
+        android:name="com.gabriel.easy_eat_recipe.fragment.food_joke_fragment.FoodJokeFragment"
         android:label="@string/food_joke_fragment_appbar_text"
         tools:layout="@layout/fragment_food_joke" />
 </navigation>
