@@ -11,4 +11,8 @@
     <string name="to_do_search">To do search</string>
     <string name="error_message_display_image">Error message display image</string>
     <string name="no_internet_connection">No internet connection</string>
+    <string name="recipe_s_image">Recipe\'s Image</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="_100">100</string>
 </resources>
