@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Easy-Eat-Recipe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="recipes_fragment">Recipes</string>
+    <string name="favorite_recipes_fragment">Favorite</string>
+    <string name="food_joke_fragment">Extras</string>
+
+    <string name="recipes_fragment_appbar_text">Recipes</string>
+    <string name="favorite_recipes_fragment_appbar_text">Favorite Recipes</string>
+    <string name="food_joke_fragment_appbar_text">Extras</string>
 </resources>
