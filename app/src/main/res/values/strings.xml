@@ -8,4 +8,7 @@
     <string name="recipes_fragment_appbar_text">Recipes</string>
     <string name="favorite_recipes_fragment_appbar_text">Favorite Recipes</string>
     <string name="food_joke_fragment_appbar_text">Extras</string>
+    <string name="to_do_search">To do search</string>
+    <string name="error_message_display_image">Error message display image</string>
+    <string name="no_internet_connection">No internet connection</string>
 </resources>
