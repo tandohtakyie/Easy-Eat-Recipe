@@ -1,4 +1,4 @@
-package com.gabriel.easy_eat_recipe
+package com.gabriel.easy_eat_recipe.data.network
 
 import com.gabriel.easy_eat_recipe.model.FoodRecipe
 import retrofit2.Response
@@ -14,6 +14,4 @@ interface FoodRecipesApi {
      */
     @GET("/recipes/complexSearch")
     suspend fun getRecipes(@QueryMap queries: Map<String, String>): Response<FoodRecipe>
-
-
 }

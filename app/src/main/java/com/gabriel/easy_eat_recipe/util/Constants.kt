@@ -1,4 +1,4 @@
-package com.gabriel.easy_eat_recipe.constant
+package com.gabriel.easy_eat_recipe.util
 
 class Constants {
     companion object {
