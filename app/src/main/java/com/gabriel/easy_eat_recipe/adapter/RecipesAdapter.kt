@@ -2,10 +2,12 @@ package com.gabriel.easy_eat_recipe.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.gabriel.easy_eat_recipe.databinding.RecipesRowLayoutBinding
 import com.gabriel.easy_eat_recipe.model.FoodRecipe
 import com.gabriel.easy_eat_recipe.model.Result
+import com.gabriel.easy_eat_recipe.util.RecipesDiffUtil
 
 class RecipesAdapter : RecyclerView.Adapter<RecipesAdapter.MyViewHolder>() {
 
@@ -35,7 +37,7 @@ class RecipesAdapter : RecyclerView.Adapter<RecipesAdapter.MyViewHolder>() {
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val currentResult = recipe[position]
-        holder.bind(currentResult)
+        holder.bind(result = currentResult)
 
     }
 
@@ -44,8 +46,11 @@ class RecipesAdapter : RecyclerView.Adapter<RecipesAdapter.MyViewHolder>() {
     }
 
     fun setData(newData: FoodRecipe) {
+        val recipesDiffUtil = RecipesDiffUtil(oldList = recipe, newList = newData.results)
+        val diffUtilResult = DiffUtil.calculateDiff(recipesDiffUtil)
         recipe = newData.results
-        notifyDataSetChanged()
+        diffUtilResult.dispatchUpdatesTo(this)
+
     }
 
 
